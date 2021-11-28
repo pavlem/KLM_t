@@ -13,19 +13,10 @@
 		2B20E7092752D508005916D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B20E7082752D508005916D3 /* Assets.xcassets */; };
 		2B20E70C2752D508005916D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B20E70A2752D508005916D3 /* LaunchScreen.storyboard */; };
 		2B20E7172752D508005916D3 /* KLM_2_tTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20E7162752D508005916D3 /* KLM_2_tTests.swift */; };
-		2B20E7212752D508005916D3 /* KLM_2_tUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20E7202752D508005916D3 /* KLM_2_tUITests.swift */; };
-		2B20E7232752D508005916D3 /* KLM_2_tUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B20E7222752D508005916D3 /* KLM_2_tUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		2B20E7132752D508005916D3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2B20E6F42752D507005916D3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2B20E6FB2752D507005916D3;
-			remoteInfo = KLM_2_t;
-		};
-		2B20E71D2752D508005916D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2B20E6F42752D507005916D3 /* Project object */;
 			proxyType = 1;
@@ -44,9 +35,6 @@
 		2B20E70D2752D508005916D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B20E7122752D508005916D3 /* KLM_2_tTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLM_2_tTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B20E7162752D508005916D3 /* KLM_2_tTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_2_tTests.swift; sourceTree = "<group>"; };
-		2B20E71C2752D508005916D3 /* KLM_2_tUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLM_2_tUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2B20E7202752D508005916D3 /* KLM_2_tUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_2_tUITests.swift; sourceTree = "<group>"; };
-		2B20E7222752D508005916D3 /* KLM_2_tUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KLM_2_tUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +52,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B20E7192752D508005916D3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -79,7 +60,6 @@
 			children = (
 				2B20E6FE2752D507005916D3 /* KLM_2_t */,
 				2B20E7152752D508005916D3 /* KLM_2_tTests */,
-				2B20E71F2752D508005916D3 /* KLM_2_tUITests */,
 				2B20E6FD2752D507005916D3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -89,7 +69,6 @@
 			children = (
 				2B20E6FC2752D507005916D3 /* KLM_2_t.app */,
 				2B20E7122752D508005916D3 /* KLM_2_tTests.xctest */,
-				2B20E71C2752D508005916D3 /* KLM_2_tUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,15 +89,6 @@
 				2B20E7162752D508005916D3 /* KLM_2_tTests.swift */,
 			);
 			path = KLM_2_tTests;
-			sourceTree = "<group>";
-		};
-		2B20E71F2752D508005916D3 /* KLM_2_tUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2B20E7202752D508005916D3 /* KLM_2_tUITests.swift */,
-				2B20E7222752D508005916D3 /* KLM_2_tUITestsLaunchTests.swift */,
-			);
-			path = KLM_2_tUITests;
 			sourceTree = "<group>";
 		};
 		2B20E73327540942005916D3 /* App */ = {
@@ -186,24 +156,6 @@
 			productReference = 2B20E7122752D508005916D3 /* KLM_2_tTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2B20E71B2752D508005916D3 /* KLM_2_tUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2B20E72C2752D508005916D3 /* Build configuration list for PBXNativeTarget "KLM_2_tUITests" */;
-			buildPhases = (
-				2B20E7182752D508005916D3 /* Sources */,
-				2B20E7192752D508005916D3 /* Frameworks */,
-				2B20E71A2752D508005916D3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2B20E71E2752D508005916D3 /* PBXTargetDependency */,
-			);
-			name = KLM_2_tUITests;
-			productName = KLM_2_tUITests;
-			productReference = 2B20E71C2752D508005916D3 /* KLM_2_tUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -218,10 +170,6 @@
 						CreatedOnToolsVersion = 13.1;
 					};
 					2B20E7112752D508005916D3 = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 2B20E6FB2752D507005916D3;
-					};
-					2B20E71B2752D508005916D3 = {
 						CreatedOnToolsVersion = 13.1;
 						TestTargetID = 2B20E6FB2752D507005916D3;
 					};
@@ -242,7 +190,6 @@
 			targets = (
 				2B20E6FB2752D507005916D3 /* KLM_2_t */,
 				2B20E7112752D508005916D3 /* KLM_2_tTests */,
-				2B20E71B2752D508005916D3 /* KLM_2_tUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,13 +206,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2B20E7102752D508005916D3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2B20E71A2752D508005916D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -292,15 +232,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2B20E7182752D508005916D3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2B20E7212752D508005916D3 /* KLM_2_tUITests.swift in Sources */,
-				2B20E7232752D508005916D3 /* KLM_2_tUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -308,11 +239,6 @@
 			isa = PBXTargetDependency;
 			target = 2B20E6FB2752D507005916D3 /* KLM_2_t */;
 			targetProxy = 2B20E7132752D508005916D3 /* PBXContainerItemProxy */;
-		};
-		2B20E71E2752D508005916D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2B20E6FB2752D507005916D3 /* KLM_2_t */;
-			targetProxy = 2B20E71D2752D508005916D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -558,52 +484,6 @@
 			};
 			name = Release;
 		};
-		2B20E72D2752D508005916D3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5ZMJZYMZX;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viva.paja.KLM-2-tUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KLM_2_t;
-			};
-			name = Debug;
-		};
-		2B20E72E2752D508005916D3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = G5ZMJZYMZX;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.viva.paja.KLM-2-tUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = KLM_2_t;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -630,15 +510,6 @@
 			buildConfigurations = (
 				2B20E72A2752D508005916D3 /* Debug */,
 				2B20E72B2752D508005916D3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2B20E72C2752D508005916D3 /* Build configuration list for PBXNativeTarget "KLM_2_tUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2B20E72D2752D508005916D3 /* Debug */,
-				2B20E72E2752D508005916D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
