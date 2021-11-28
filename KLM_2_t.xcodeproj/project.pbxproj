@@ -97,12 +97,9 @@
 		2B20E6FE2752D507005916D3 /* KLM_2_t */ = {
 			isa = PBXGroup;
 			children = (
-				2B20E6FF2752D507005916D3 /* AppDelegate.swift */,
-				2B20E7032752D507005916D3 /* ViewController.swift */,
-				2B20E7052752D507005916D3 /* Main.storyboard */,
-				2B20E7082752D508005916D3 /* Assets.xcassets */,
-				2B20E70A2752D508005916D3 /* LaunchScreen.storyboard */,
-				2B20E70D2752D508005916D3 /* Info.plist */,
+				2B20E73327540942005916D3 /* App */,
+				2B20E73827540982005916D3 /* Resources */,
+				2B20E7412754099F005916D3 /* ViewControllers */,
 			);
 			path = KLM_2_t;
 			sourceTree = "<group>";
@@ -122,6 +119,33 @@
 				2B20E7222752D508005916D3 /* KLM_2_tUITestsLaunchTests.swift */,
 			);
 			path = KLM_2_tUITests;
+			sourceTree = "<group>";
+		};
+		2B20E73327540942005916D3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2B20E6FF2752D507005916D3 /* AppDelegate.swift */,
+				2B20E70D2752D508005916D3 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2B20E73827540982005916D3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B20E7052752D507005916D3 /* Main.storyboard */,
+				2B20E7082752D508005916D3 /* Assets.xcassets */,
+				2B20E70A2752D508005916D3 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2B20E7412754099F005916D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2B20E7032752D507005916D3 /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -437,7 +461,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G5ZMJZYMZX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KLM_2_t/Info.plist;
+				INFOPLIST_FILE = KLM_2_t/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -465,7 +489,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G5ZMJZYMZX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = KLM_2_t/Info.plist;
+				INFOPLIST_FILE = KLM_2_t/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
